@@ -1,0 +1,96 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: #f1e1d0; /* Soft nude background */
+    color: #5d3d3d; /* Darker brown text */
+}
+
+/* Header Section */
+header {
+    background-color: #f8d1d1; /* Light pink background */
+    color: #5d3d3d; /* Dark brown text */
+    padding: 32px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 3em;
+    font-weight: bold;
+}
+
+header .w3-tag {
+    background-color: #f5a6c4; /* Soft pink tag */
+    color: #5d3d3d; /* Dark brown text */
+}
+
+/* Card and Container Styles */
+.w3-card-4 {
+    border: 1px solid #f1e1d0; /* Nude border for the cards */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.w3-container {
+    background-color: #ffffff; /* White background for containers */
+    color: #5d3d3d; /* Dark brown text */
+    padding: 16px;
+}
+
+/* Button Styles */
+.w3-button {
+    background-color: #f5a6c4; /* Light pink background for buttons */
+    color: #5d3d3d; /* Dark brown text */
+    border-radius: 4px;
+}
+
+.w3-button:hover {
+    background-color: #f0b5c5; /* Slightly darker pink on hover */
+}
+
+/* Sidebar Section */
+.w3-col.l4 {
+    background-color: #f9e8e1; /* Very light nude background */
+    padding: 20px;
+}
+
+/* About Card */
+.w3-card {
+    background-color: #f9f0e2; /* Light nude background */
+    padding: 16px;
+    margin-bottom: 16px;
+}
+
+/* Popular Posts and Tags */
+.w3-tag {
+    background-color: #f5a6c4; /* Light pink for tags */
+    color: #5d3d3d; /* Dark brown text */
+}
+
+.w3-tag.w3-black {
+    background-color: #5d3d3d; /* Dark brown for special tags */
+    color: white;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #f8d1d1; /* Light pink footer */
+    color: #5d3d3d; /* Dark brown text */
+    text-align: center;
+    padding: 32px 0;
+}
+
+footer a {
+    color: #5d3d3d; /* Dark brown links */
+}
+
+footer a:hover {
+    color: #f5a6c4; /* Light pink on hover */
+}
+
+/* Responsive Design */
+@media only screen and (max-width: 768px) {
+    header h1 {
+        font-size: 2.5em;
+    }
+    .w3-col.l4 {
+        padding: 10px;
+    }
+}
